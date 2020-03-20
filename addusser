@@ -1,0 +1,11 @@
+---
+ --hosts: centos7
+   gather_facts: true 
+ - tasks:
+ 
+ - name: adduser os_vtpay
+   user:
+     name: os_vtpay
+	 state: present
+	 password: 123123a@
+ 
